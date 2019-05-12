@@ -1,0 +1,28 @@
+https://stats.nba.com/stats/boxscoresummaryv2?GameID=0041800226
+
+This has interesting things like:
+- points in the paint, 2nd change points, fast break points, largest lead, lead changes, times tied, team turnovers, total turnovers, team rebounds, points off turnovers
+- officials
+- attendances, game time
+- points by quarter
+
+
+https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/2018/scores/pbp/0041800226_full_pbp.json
+https://data.nba.com/data/10s/v2015/json/mobile_teams/nba/2018/scores/pbp/0041800223_full_pbp.json
+
+
+g = game level
+pd = periods
+    with p = 1, p = 2.  p=5 = OT1
+    pla array contains events
+        Each event will contain attributes:
+        cl = clock  "08:41"
+        locX = location?  114
+        locY = location?  -3
+        tid = team id  1610612745
+        pid = player id.  200782 = Tucker
+        hs = home score
+        vs = visitor score
+        epid = the next player id?  example: assist person?
+
+

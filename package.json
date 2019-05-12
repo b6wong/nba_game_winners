@@ -1,0 +1,14 @@
+{
+  "name": "nba_game_winners",
+  "version": "1.0.0",
+  "description": "Determine the player that scored the game winning shot.",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bill Wong",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
